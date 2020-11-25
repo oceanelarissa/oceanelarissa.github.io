@@ -1,0 +1,161 @@
+.bar{
+   padding-top: 10px;
+
+    list-style-type: none;
+    text-decoration: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    justify-content: space-evenly;
+   
+}
+
+a, .btn, .table{
+    text-decoration:none;
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    color: #6f6f6f;
+    font: normal 10px Libre Baskerville, serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+a:hover{
+
+ text-decoration: none;
+ color: #9b9a9a;
+}
+
+body{
+    background-color: white;
+}
+
+
+.readmore:onclick{
+
+    
+}
+
+  .badge {
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: #b36475;
+    color: white;
+    font-family: 'Sacramento', cursive; 
+  }
+
+
+
+  .carousel-inner {
+    height: 300px;
+  }
+  
+
+h2{
+    
+    font: normal 35px Libre Baskerville, serif;
+    letter-spacing: 1px;
+    line-height: 2.7rem;
+    -webkit-font-smoothing: antialiased;
+    color: #444;
+    box-sizing: border-box;
+    -webkit-animation-name: fadeIn !important;
+    padding-top: 40px;
+    padding-bottom: 0;
+    padding-left: 40px;
+    opacity: 1;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+
+}
+
+ul{
+    font: normal 18px Libre Baskerville, serif;
+    letter-spacing: 1px;
+line-height: 2.0rem;
+-webkit-font-smoothing: antialiased;
+color: #444;
+box-sizing: border-box;
+-webkit-animation-name: fadeIn !important;
+opacity: 1;
+}
+
+.about, #contact, .footer, h3, p {
+font: normal 18px Libre Baskerville, serif;
+letter-spacing: 1px;
+line-height: 2.7rem;
+-webkit-font-smoothing: antialiased;
+color: #444;
+box-sizing: border-box;
+-webkit-animation-name: fadeIn !important;
+opacity: 1;
+overflow: hidden;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-timing-function: ease-in-out;}
+
+#marielle{
+ padding: 20px;
+    height: 50vh;
+    float: right;
+    border-radius: 50%;
+  
+
+}
+
+.aboutme
+{
+    
+    display:flex;
+   
+   
+}
+
+
+
+ 
+.footer {
+    background-color: white;
+    color: grey;
+    box-shadow:  20px 20px 20px -20px #333;
+    border-top: 20px;
+   }
+
+   .container
+   {
+       background-image: image-set(src="C:\Users\Oceane\Pictures\photos 2020\IMG_3325 (2).JPG");
+   }
+
+   .card{
+
+   
+    border: 1.5px;
+    border-style: solid;
+    border-color:#b36475 ;
+   }
+
+   #review{
+
+    font: normal 12px Libre Baskerville, serif;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    color: #444;
+    box-sizing: border-box;
+    -webkit-animation-name: fadeIn !important;
+    opacity: 1;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;}
